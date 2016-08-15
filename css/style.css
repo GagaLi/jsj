@@ -1,0 +1,58 @@
+/*初始化*/
+body,h1,h2,h3,p,div,ul,dl,dt,dd,li,img,a,span,i,strong,b,em{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: #fff;}
+a:hover{color: #FFFFFF; text-decoration: none;}
+img{border: 0 none; vertical-align: top;}
+input{border: none;}
+.clearfix{zoom:1;}
+.clearfix:hover{content: ".";display: block;height: 0;visibility: hidden;clear: both;}
+body{
+	font-family: "微软雅黑";
+}
+/*主要*/
+.box{
+	width: 420px;
+	height: 400px;
+	margin: 0 auto;
+}
+.screen{
+	width: 354px;
+	height: 64px;
+	background: #cd2727;
+	margin: 24px auto 15px;
+	border-radius: 8px;
+}
+.screen input{
+	text-align: right;
+	background: #cd2727;
+	width: auto;
+	height: 64px;
+	border: none;
+	border-radius: 8px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+.button{
+	width: 365px;
+	height: 267px;
+	margin-left: 38px;
+}
+.button li{
+	float: left;
+	margin: 0 21px 19px 0;	
+}
+.button input{
+	
+	border: none;
+	width: 52px;
+	height: 52px;
+	background: #8d7c7c;
+	border-radius: 8px;
+	font-size: 24px;
+	color: #fefdfd;
+	font-weight: 400;
+}
+.button .ft18{
+	font-size: 18px;
+}
